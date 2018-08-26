@@ -3,7 +3,7 @@ require 'formula'
 class Sshpass < Formula
   url 'https://github.com/liranms/sshpass/archive/v1.07.tar.gz'
   homepage 'http://sourceforge.net/projects/sshpass'
-  sha256 'F362CF6D9D090E2B71C0226918AA59B8639CCDEAEF4491792E09E42DFA4B0AF1'
+  sha256 'f362cf6d9d090e2b71c0226918aa59b8639ccdeaef4491792e09e42dfa4b0af1'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
